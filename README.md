@@ -12,14 +12,14 @@ A Dockerfile that builds an docker image containing
 Using the pre-built image from dockerhub
 ==============================
 
-     docker run -it mukeshrijhwani/mvn-plus-npm
+     docker run -it xraybat/mvn-plus-npm
 
 Building the image:
 ===================
 
 To build the image, I run this command:
 
-     docker build -t mukeshrijhwani/mvn-plus-npm .
+     docker build -t xraybat/mvn-plus-npm .
 
 You should change the `-t` argument to something else
 typically: `${your-dockerhub-id}/${some-name-you-choose}`.
@@ -29,6 +29,6 @@ Publishing the image to dockerhub:
 
 After building the image it is pushed to dockerhub like so:
 
-    docker push mukeshrijhwani/mvn-plus-npm
+    docker push xraybat/mvn-plus-npm
 
-Again, change `mukeshrijhwani` to your own docker-hub-id.
+Again, change `xraybat` to your own docker-hub-id.
